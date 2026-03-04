@@ -55,7 +55,6 @@ namespace picacomic
         {
             Log("=============================================");
             Log($"开始运行第{index + 1}个账号");
-            Log($"账号 {username}  密码{password}");
 
             Login login = await PicacomicUrl.Login(username, password);
             Log("登录成功");
